@@ -68,7 +68,7 @@ const DeleteConfirmModal = ({ deleteBookHandler }) => {
   return (
     <DeleteConfirmModalWrapper>
       <BsTrash />
-      <span>책을 삭제하시겠습니까?</span>
+      <span>삭제하시겠습니까?</span>
       <button className="consent" onClick={() => deleteBookHandler(true)}>
         확인
       </button>
